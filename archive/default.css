@@ -1,0 +1,125 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #47a3da;
+    text-align: center;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+.mascara{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+}
+
+.painel-centro{
+	max-width: 210px;
+	min-height: 500px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 12%;
+}
+
+.logo{
+	width: auto;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+}
+
+.marcas{
+	max-width: 1000px;
+	height: 200px;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 50%;
+	margin-left: -500px;
+}
+
+#marcas{
+	position: relative;
+
+}
+
+#marcas li{
+	width: 130px;
+	min-height: 90px;
+}
+
+.acesse{
+	border: 2px solid #fff;
+	color: #fff;
+	position: absolute;
+	margin-top: 150px;
+	width: 210px;
+	padding: 10px 20px;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-family: Oswald, arial, sans-serif;
+}
+
+.acesse:hover, #sobre-link:hover, #contato-link:hover{
+	background: #fff;
+	color: #000;
+}
+
+.links-pag{
+	width: 210px;
+	height: auto;
+	display: inline-block;
+	margin-top: 210px;
+}
+
+#sobre-link{
+	margin-right: 2px;
+}
+
+#contato-link{
+	margin-left: 2px;
+}
+
+#sobre-link, #contato-link{
+	width: 102px;
+	float: left;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	font-family: Oswald, arial, sans-serif;
+}
